@@ -51,7 +51,7 @@ pyparsing==3.1.2
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
-pytz==2021.1
+pytz
 pywin32==301
 PyYAML==6.0.1
 pyzmq==25.1.2
