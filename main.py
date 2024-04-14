@@ -19,7 +19,7 @@ app = FastAPI()  #http://127.0.0.1:8000
 
 #Cargamos los dataframes de la funciones limpios
 
-df_f1_dev = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset/fun_1_dev.parquet')
+df_f1_dev = pd.read_parquet(r'dataset/Funcciones_dataset/fun_1_dev.parquet')
 df_f2_user = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_user_games.parquet')
 df_f2_user_games = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_user_games.parquet')
 df_f2_user_reviews = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_user_rew.parquet')
