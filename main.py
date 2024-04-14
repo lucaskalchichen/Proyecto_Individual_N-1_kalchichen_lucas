@@ -19,18 +19,18 @@ app = FastAPI()  #http://127.0.0.1:8000
 
 #Cargamos los dataframes de la funciones limpios
 
-df_f1_dev = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_1_dev.parquet')
-df_f2_user = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_2_user_games.parquet')
-df_f2_user_games = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_2_user_games.parquet')
-df_f2_user_reviews = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_2_user_rew.parquet')
-df_f2_games_price = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_2_games_price.parquet')
-df_f3_genres = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_3_genres.parquet')
-df_f3_users = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_3_users.parquet')
-df_f4_rv = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_4_rv.parquet')
-df_f4_reviewed_games = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_4_reviewed_g.parquet')
-df_f5_devs = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_5_devs.parquet')
-df_f5_reviewed_games = pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_5_reviewd_games.parquet')
-df_f6_recomendaciones =pd.read_parquet(r'Proyecto_Individual_N-1_kalchichen_lucas\dataset\Funcciones_dataset\fun_6_recomendations.parquet')
+df_f1_dev = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset/fun_1_dev.parquet')
+df_f2_user = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_user_games.parquet')
+df_f2_user_games = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_user_games.parquet')
+df_f2_user_reviews = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_user_rew.parquet')
+df_f2_games_price = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_2_games_price.parquet')
+df_f3_genres = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_3_genres.parquet')
+df_f3_users = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_3_users.parquet')
+df_f4_rv = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_4_rv.parquet')
+df_f4_reviewed_games = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_4_reviewed_g.parquet')
+df_f5_devs = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_5_devs.parquet')
+df_f5_reviewed_games = pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_5_reviewd_games.parquet')
+df_f6_recomendaciones =pd.read_parquet(r'https://github.com/lucaskalchichen/Proyecto_Individual_N-1_kalchichen_lucas/blob/b16a1c8f30e9c47fbc0dc5cafcabe21a2483d341/dataset/Funcciones_dataset\fun_6_recomendations.parquet')
 
 ### Funciones para Alimentar la API
 
