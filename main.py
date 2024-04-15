@@ -38,31 +38,41 @@ df_f6_recomendaciones =pd.read_parquet(r'dataset/Funcciones_dataset/fun_6_recome
 async def inicio():
     template = """
     <!DOCTYPE html>
-    <html>
-        <head>
-            <title>API Steam</title>
-            <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    padding: 20px;
-                }
-                h1 {
-                    color: #333;
-                    text-align: center;
-                }
-                p {
-                    color: #666;
-                    text-align: center;
-                    font-size: 18px;
-                    margin-top: 20px;
-                }
-            </style>
-        </head>
-        <body>
-            <h1>API de consultas de la plataforma STEAM</h1>
-            <p>Bienvenido a la API de STEAMGAMES, su fuente confiable para consultas especializadas sobre la plataforma de videojuegos.</p>
-        </body>
-    </html>
+      <html>
+          <head>
+              <title>API Steam</title>
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      padding: 20px;
+                      background-color: black; /* Set background color to black */
+                      color: white; /* Set text color to white */
+                  }
+                  h1 {
+                      color: #333;
+                      text-align: center;
+                  }
+                  p {
+                      color: #666;
+                      text-align: center;
+                      font-size: 18px;
+                      margin-top: 20px;
+                  }
+              </style>
+          </head>
+          <body>
+              <h1>Proyecto Individual N° 1 | Henry Bootcamp de Data Science.</h1>
+              <p>En esta instancia, se han integrado diversas funciones para ofrecer análisis y métricas relacionadas con la plataforma de juegos Steam. Entre las funciones disponibles se encuentran:</p>
+              <ul>
+                  <li>developer: Proporciona información sobre la cantidad de items y el porcentaje de contenido gratuito por año, según la empresa desarrolladora.</li>
+                  <li>userdata: Ofrece detalles sobre el gasto del usuario, el porcentaje de recomendación basado en reseñas y la cantidad de items adquiridos.</li>
+                  <li>UserForGenre: Identifica el usuario con más horas jugadas en un género específico y proporciona una lista de horas jugadas por año de lanzamiento.</li>
+                  <li>best_developer_year: Devuelve el top 3 de desarrolladores cuyos juegos han sido más recomendados por usuarios para un año determinado.</li>
+                  <li>developer_reviews_analysis: Analiza las reseñas de usuarios asociadas a una desarrolladora, proporcionando una lista de registros categorizados según el análisis de sentimiento (positivo o negativo).</li>
+              </ul>
+              <p>Estas funciones permiten explorar y analizar datos relevantes para comprender mejor el panorama de los juegos en la plataforma Steam.</p>
+          </body>
+      </html>
     """
     return HTMLResponse(content=template)
 
