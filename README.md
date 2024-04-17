@@ -77,3 +77,4 @@ Debes empezar desde 0, haciendo un trabajo rápido de  **`Data Engineer`**  y te
 -   [Dataset](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj): Carpeta con el archivo que requieren ser procesados, tengan en cuenta que hay datos que estan anidados (un diccionario o una lista como valores en la fila).
 -   [Diccionario de datos](https://docs.google.com/spreadsheets/d/1-t9HLzLHIGXvliq56UE_gMaWBVTPfrlTf2D9uAtLGrk/edit?usp=drive_link): Diccionario con algunas descripciones de las columnas disponibles en el dataset.
 -   [Video](https://www.youtube.com/watch?v=yabVdRWIgVw): Video de presentacion del proyecto.
+-   [deploy](https://proyecto-individual-n-1-kalchichen-lucas.onrender.com):deploy del proyecto en render
